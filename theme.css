@@ -1,0 +1,32 @@
+/* generated from src/theme.json by npm run build, do not edit */
+@font-face{font-family:"Space Grotesk";font-style:normal;font-weight:500;font-display:swap;src:url("fonts/space-grotesk-latin-500-normal.woff2") format("woff2")}
+@font-face{font-family:"Space Grotesk";font-style:normal;font-weight:700;font-display:swap;src:url("fonts/space-grotesk-latin-700-normal.woff2") format("woff2")}
+@font-face{font-family:"Hanken Grotesk";font-style:normal;font-weight:400;font-display:swap;src:url("fonts/hanken-grotesk-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Hanken Grotesk";font-style:normal;font-weight:600;font-display:swap;src:url("fonts/hanken-grotesk-latin-600-normal.woff2") format("woff2")}
+:root{
+  --bg: #8A322C;
+  --bg2: #6E2621;
+  --surface: #FBF7EC;
+  --surface-text: #26231E;
+  --door: #E7DDC9;
+  --door-edge: #B3A890;
+  --door-open: #5A1E1A;
+  --num: #2E5D82;
+  --ribbon: #9E3B34;
+  --primary: #2E5D82;
+  --on-primary: #FBF7EC;
+  --accent: #F2D58A;
+  --gold: #E0BC63;
+  --pine: #2F5D3E;
+  --text: #FBF7EC;
+  --heading: #FBF7EC;
+  --muted: #EADFC8;
+  --snow: #FFFFFF;
+  --font-h: "Space Grotesk", system-ui, sans-serif;
+  --font-b: "Hanken Grotesk", system-ui, sans-serif;
+  --radius: 12px;
+  --shadow: 0 16px 34px -16px rgba(30,5,5,.6);
+  --garland: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'240'%20height%3D'80'%20viewBox%3D'0%200%20240%2080'%3E%20%3Cpath%20d%3D'M0%2010%20Q120%2078%20240%2010'%20fill%3D'none'%20stroke%3D'%232F5D3E'%20stroke-width%3D'11'%20stroke-linecap%3D'round'%2F%3E%20%3Cg%20stroke%3D'%232F5D3E'%20stroke-width%3D'3'%20stroke-linecap%3D'round'%20opacity%3D'.9'%3E%3Cpath%20d%3D%22M0.0%2010.0%20l-4.2%20-9.0%20M0.0%2010.0%20l4.9%209%22%2F%3E%3Cpath%20d%3D%22M10.0%2015.4%20l4.2%20-9.0%20M10.0%2015.4%20l-4.9%209%22%2F%3E%3Cpath%20d%3D%22M20.0%2020.4%20l-4.2%20-9.0%20M20.0%2020.4%20l4.9%209%22%2F%3E%3Cpath%20d%3D%22M30.0%2024.9%20l4.2%20-9.0%20M30.0%2024.9%20l-4.9%209%22%2F%3E%3Cpath%20d%3D%22M40.0%2028.9%20l-4.2%20-9.0%20M40.0%2028.9%20l4.9%209%22%2F%3E%3Cpath%20d%3D%22M50.0%2032.4%20l4.2%20-9.0%20M50.0%2032.4%20l-4.9%209%22%2F%3E%3Cpath%20d%3D%22M60.0%2035.5%20l-4.2%20-9.0%20M60.0%2035.5%20l4.9%209%22%2F%3E%3Cpath%20d%3D%22M70.0%2038.1%20l4.2%20-9.0%20M70.0%2038.1%20l-4.9%209%22%2F%3E%3Cpath%20d%3D%22M80.0%2040.2%20l-4.2%20-9.0%20M80.0%2040.2%20l4.9%209%22%2F%3E%3Cpath%20d%3D%22M90.0%2041.9%20l4.2%20-9.0%20M90.0%2041.9%20l-4.9%209%22%2F%3E%3Cpath%20d%3D%22M100.0%2043.1%20l-4.2%20-9.0%20M100.0%2043.1%20l4.9%209%22%2F%3E%3Cpath%20d%3D%22M110.0%2043.8%20l4.2%20-9.0%20M110.0%2043.8%20l-4.9%209%22%2F%3E%3Cpath%20d%3D%22M120.0%2044.0%20l-4.2%20-9.0%20M120.0%2044.0%20l4.9%209%22%2F%3E%3Cpath%20d%3D%22M130.0%2043.8%20l4.2%20-9.0%20M130.0%2043.8%20l-4.9%209%22%2F%3E%3Cpath%20d%3D%22M140.0%2043.1%20l-4.2%20-9.0%20M140.0%2043.1%20l4.9%209%22%2F%3E%3Cpath%20d%3D%22M150.0%2041.9%20l4.2%20-9.0%20M150.0%2041.9%20l-4.9%209%22%2F%3E%3Cpath%20d%3D%22M160.0%2040.2%20l-4.2%20-9.0%20M160.0%2040.2%20l4.9%209%22%2F%3E%3Cpath%20d%3D%22M170.0%2038.1%20l4.2%20-9.0%20M170.0%2038.1%20l-4.9%209%22%2F%3E%3Cpath%20d%3D%22M180.0%2035.5%20l-4.2%20-9.0%20M180.0%2035.5%20l4.9%209%22%2F%3E%3Cpath%20d%3D%22M190.0%2032.4%20l4.2%20-9.0%20M190.0%2032.4%20l-4.9%209%22%2F%3E%3Cpath%20d%3D%22M200.0%2028.9%20l-4.2%20-9.0%20M200.0%2028.9%20l4.9%209%22%2F%3E%3Cpath%20d%3D%22M210.0%2024.9%20l4.2%20-9.0%20M210.0%2024.9%20l-4.9%209%22%2F%3E%3Cpath%20d%3D%22M220.0%2020.4%20l-4.2%20-9.0%20M220.0%2020.4%20l4.9%209%22%2F%3E%3Cpath%20d%3D%22M230.0%2015.4%20l4.2%20-9.0%20M230.0%2015.4%20l-4.9%209%22%2F%3E%3Cpath%20d%3D%22M240.0%2010.0%20l-4.2%20-9.0%20M240.0%2010.0%20l4.9%209%22%2F%3E%3C%2Fg%3E%20%3Cpath%20d%3D'M0%2010%20Q120%2078%20240%2010'%20fill%3D'none'%20stroke%3D'%23E0BC63'%20stroke-width%3D'1.6'%20stroke-dasharray%3D'2%209'%20opacity%3D'.9'%2F%3E%20%3Cline%20x1%3D'120'%20y1%3D'44'%20x2%3D'120'%20y2%3D'52'%20stroke%3D'%23E0BC63'%20stroke-width%3D'2'%2F%3E%20%3Ccircle%20cx%3D'120'%20cy%3D'62'%20r%3D'11'%20fill%3D'%239E3B34'%2F%3E%3Crect%20x%3D'115'%20y%3D'48'%20width%3D'10'%20height%3D'5'%20rx%3D'1.5'%20fill%3D'%23E0BC63'%2F%3E%20%3Ccircle%20cx%3D'116'%20cy%3D'58'%20r%3D'3'%20fill%3D'%23fff'%20opacity%3D'.45'%2F%3E%20%3Ccircle%20cx%3D'62'%20cy%3D'42'%20r%3D'7'%20fill%3D'%23E0BC63'%2F%3E%3Ccircle%20cx%3D'59.5'%20cy%3D'39.5'%20r%3D'2'%20fill%3D'%23fff'%20opacity%3D'.5'%2F%3E%20%3Ccircle%20cx%3D'178'%20cy%3D'42'%20r%3D'7'%20fill%3D'%23E0BC63'%2F%3E%3Ccircle%20cx%3D'175.5'%20cy%3D'39.5'%20r%3D'2'%20fill%3D'%23fff'%20opacity%3D'.5'%2F%3E%20%3Cg%20fill%3D'%239E3B34'%3E%3Cpath%20d%3D'M0%2010%20l-14%20-8%20v16z%20M0%2010%20l14%20-8%20v16z'%2F%3E%3Ccircle%20cx%3D'0'%20cy%3D'10'%20r%3D'4'%2F%3E%20%3Cpath%20d%3D'M240%2010%20l-14%20-8%20v16z%20M240%2010%20l14%20-8%20v16z'%2F%3E%3Ccircle%20cx%3D'240'%20cy%3D'10'%20r%3D'4'%2F%3E%3C%2Fg%3E%20%3C%2Fsvg%3E");
+  --star: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20fill%3D'%23E0BC63'%20d%3D'M12%201.5l2.9%206.6%207.1.6-5.4%204.7%201.6%207-6.2-3.8-6.2%203.8%201.6-7L2%208.7l7.1-.6z'%2F%3E%3C%2Fsvg%3E");
+  color-scheme: dark;
+}
